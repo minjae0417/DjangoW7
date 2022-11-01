@@ -15,6 +15,6 @@
       <li><p>무기가 없습니다.</p></li>
     {% endfor %}
     <!-- [미션] 링크를 눌렀을 때 무기 생성 페이지로 이동하도록 만들기 -->
-    <a class="button" href="">무기 생성하기</a>
+    <a class="button" href="{% url 'game:weapon_create' %}">무기 생성하기</a>
   </ul>
 {% endblock %}
